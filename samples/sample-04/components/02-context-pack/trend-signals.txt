@@ -1,0 +1,58 @@
+CONTENT TREND SIGNALS — B2B SaaS / Future of Work
+Last updated: November 2024
+Update frequency: Monthly
+
+=======================================================
+TRENDING TOPICS (by search volume and editorial coverage)
+=======================================================
+
+1. ASYNC-FIRST WORK
+- "async work" search volume up 340% since 2022
+- 73% of remote workers report meeting overload (Owl Labs 2024 State of Remote Work)
+- Companies like GitLab, Doist, Basecamp publishing extensively on async-first culture
+- Common pain point: "I can't get any deep work done because of back-to-back meetings"
+- Counterpoint emerging: "async-first doesn't mean async-only" — nuance is the insight
+
+2. AI IN TEAM WORKFLOWS
+- 67% of knowledge workers now use AI tools weekly (Microsoft Work Trend Index 2024)
+- Top use cases: writing assistance, meeting summaries, task prioritisation
+- Concern: "AI fatigue" — teams overwhelmed by too many AI tools, unclear ROI
+- Opportunity: content that shows specific, measurable outcomes rather than general "AI is great" claims
+
+3. MANAGER EFFECTIVENESS
+- Gallup: manager quality accounts for 70% of variance in team engagement
+- "Manager effectiveness" becoming a KPI at companies with >200 employees
+- Trend: "player-coach" model — managers who are also individual contributors
+- Content that managers share with their teams performs 3x better on LinkedIn vs. general audience content
+
+4. TEAM HEALTH & BURNOUT
+- Burnout rates: 42% of workers report burnout in Q3 2024 (Gallup)
+- "Quiet quitting" conversation shifted to "loud quitting" and "bare minimum Monday"
+- Counter-narrative gaining traction: engagement comes from autonomy + clear goals, not perks
+- Data point: Teams with documented working agreements have 31% lower turnover (Atlassian research)
+
+5. PRODUCTIVITY TOOLS CONSOLIDATION
+- Average knowledge worker uses 9.4 different apps per day (RescueTime)
+- "Tool fatigue" is real — searches for "best all-in-one project management" up 180%
+- Opportunity: content that helps people evaluate, audit, and reduce their tool stack
+
+=======================================================
+AUDIENCE CONTENT PREFERENCES (from our engagement data)
+=======================================================
+
+- Posts with specific numbers in the title get 2.3x more clicks
+- "How to" posts outperform "Why you should" posts by 40%
+- Lists of 5-7 items perform better than 10+ lists (cognitive load)
+- Readers spend avg 2.7 minutes on our blog posts — aim for 800-1000 words as the sweet spot
+- LinkedIn posts with questions at the end get 4x more comments
+- Email subject lines with numbers get 26% higher open rates
+
+=======================================================
+COMPETITOR CONTENT ANGLES TO DIFFERENTIATE FROM
+=======================================================
+
+- Avoid: "10 tips for better meetings" (oversaturated)
+- Avoid: "Why remote work is the future" (too general, done to death)
+- Differentiate: specific, counterintuitive takes backed by data
+- Differentiate: content that operations managers can share with their team directly
+- Differentiate: "before and after" structure — what the old way looked like, what the new way looks like

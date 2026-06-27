@@ -1,0 +1,74 @@
+AUDIENCE PERSONAS — FlowSpace Content
+
+=======================================================
+PERSONA 1: "THE OVERLOADED OPS MANAGER" (Primary)
+=======================================================
+
+Name: Alex (gender-neutral)
+Title: Operations Manager / Head of Operations
+Company size: 50–200 employees
+Industry: SaaS, professional services, agencies
+
+BACKGROUND
+Alex manages a team of 8-15 people. They're responsible for keeping projects on track, processes running smoothly, and people aligned. They didn't plan to be in ops — they grew into it from a project management or coordinator role.
+
+GOALS
+- Get the team to move faster without burning people out
+- Reduce the amount of time they spend in meetings and on Slack
+- Have visibility into what everyone's working on without micromanaging
+- Make better decisions faster using real data
+
+FRUSTRATIONS
+- "I spend 60% of my time in meetings that could have been an email"
+- "I don't have time to think — I'm always reacting"
+- "My team uses 12 different tools and nothing talks to each other"
+- "By the time I figure out what everyone's working on, something's already on fire"
+
+CONTENT CONSUMPTION
+- Reads newsletters: TLDR, Morning Brew, Lenny's Newsletter
+- Follows: Adam Grant, Annie Duke, Claire Hughes Johnson on LinkedIn
+- Consumes content during commute (podcast-friendly) or early morning
+- Shares content with their team when it's immediately actionable
+- Skims first, reads fully if the first section is compelling
+
+WHAT THEY WANT FROM CONTENT
+- Specific tactics they can implement this week, not in "6 months"
+- Real examples from real companies (case studies beat generic advice)
+- Permission to do less, not a list of more things to do
+- Templates, frameworks, and scripts they can use immediately
+
+=======================================================
+PERSONA 2: "THE SCALING TEAM LEAD" (Secondary)
+=======================================================
+
+Name: Jordan
+Title: Team Lead, Tech Lead, Engineering Manager
+Company size: 20–100 employees
+Industry: SaaS, startup
+
+BACKGROUND
+Jordan recently moved from individual contributor to people manager. They're still writing code (or doing their IC work) 40-60% of the time. Managing people is new and sometimes uncomfortable.
+
+GOALS
+- Help their team deliver consistently without constant oversight
+- Build a culture of ownership and accountability
+- Grow their own management skills while staying technically credible
+- Make space for deep work in their own schedule
+
+FRUSTRATIONS
+- "I feel guilty when I'm heads-down because I worry I'm not accessible enough"
+- "My team comes to me for every decision — I want them to be more independent"
+- "I don't know how to give hard feedback without damaging the relationship"
+- "I got promoted because I was good at the job, not because I knew how to manage"
+
+CONTENT CONSUMPTION
+- Reads: Manager Tools, Lara Hogan's blog, HBR (selectively)
+- Active on LinkedIn; lurks on Twitter/X
+- Prefers shorter content — newsletters over long blog posts
+- Buys books but rarely finishes them
+
+WHAT THEY WANT FROM CONTENT
+- Reassurance that they're not alone in finding management hard
+- Specific scripts for difficult conversations
+- Simple frameworks they can remember without notes
+- Success stories from managers at similar companies

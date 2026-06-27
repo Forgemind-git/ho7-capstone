@@ -1,0 +1,35 @@
+JOB DESCRIPTION: Senior Product Designer
+Company: FlowSpace (example)
+Location: Remote (UTC-5 to UTC+3)
+Level: Senior (5+ years)
+
+ABOUT THE ROLE
+We're looking for a Senior Product Designer to own the end-to-end design of our core task management experience. You'll work closely with the product and engineering teams to translate user research into elegant, accessible, and high-performing designs.
+
+KEY RESPONSIBILITIES
+- Own the design of 2-3 major product areas simultaneously
+- Conduct user research (interviews, usability tests, surveys) and translate findings into design decisions
+- Create wireframes, high-fidelity mockups, and interactive prototypes
+- Collaborate with engineers to ensure designs are implemented with fidelity
+- Maintain and evolve our design system
+- Mentor junior designers on craft and process
+- Present design rationale clearly to non-designers (PMs, executives, customers)
+
+REQUIRED SKILLS & EXPERIENCE
+- 5+ years of product design experience in a SaaS environment
+- Strong portfolio demonstrating end-to-end design process (research → shipped product)
+- Expert-level proficiency in Figma
+- Experience working in agile/sprint-based teams
+- Strong written and verbal communication
+- Data-driven: comfortable interpreting analytics and A/B test results
+
+NICE TO HAVE
+- Experience designing for mobile (iOS/Android)
+- Familiarity with HTML/CSS (enough to collaborate effectively with front-end engineers)
+- Experience building or maintaining a design system at scale
+
+SUCCESS IN FIRST 90 DAYS
+- Complete a full design sprint on an existing product problem
+- Ship at least one major feature with full design ownership
+- Establish a relationship with at least 5 customers through research sessions
+- Contribute at least one meaningful improvement to the design system

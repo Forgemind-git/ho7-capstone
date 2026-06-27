@@ -1,0 +1,44 @@
+INTERVIEW TRANSCRIPT
+Candidate: James T.
+Role: Senior Product Designer
+Interviewer: Marcus R.
+Date: 2024-10-30
+Duration: 50 minutes
+
+---
+
+MARCUS: James, tell me about a recent project that you're proud of.
+
+JAMES: I redesigned our analytics dashboard last year. It was a complex brief — 6 different user types, 30+ data points. I spent a lot of time on the visual hierarchy, the colour system, the typography scale. The result was really clean. Our customers loved the aesthetics — we got a lot of positive feedback about how professional it looked.
+
+MARCUS: What research did you do before you started the redesign?
+
+JAMES: I looked at what our competitors were doing, studied best practices in data visualization, and reviewed some internal feedback. I didn't do formal user interviews for this one — the brief was pretty clear and the timeline was tight.
+
+MARCUS: How do you typically involve users in your design process?
+
+JAMES: I think user research is important but it needs to be balanced against speed. Sometimes you just need to ship something and see what happens. I prefer to move fast and iterate based on real usage data rather than spending weeks on research.
+
+MARCUS: Tell me about a time you had to defend a design decision to senior stakeholders.
+
+JAMES: I had a VP who wanted to add a lot of features to a page that I thought was already too complex. I pushed back hard — I told him my design was the right approach and that adding more would hurt the UX. He eventually agreed. I think you have to trust your instincts as a designer.
+
+MARCUS: How do you work with your engineering team?
+
+JAMES: I hand off Figma files with good annotations and I'm available for questions. I try to keep my designs technically feasible. I've had some friction with engineers who don't understand design constraints but you have to manage those relationships.
+
+MARCUS: What does your async communication look like?
+
+JAMES: I prefer to discuss things in person when possible — I find it's faster. For remote teams I'll do calls. I document the outcomes in Notion afterward.
+
+MARCUS: Have you mentored other designers?
+
+JAMES: Not formally. I've helped colleagues when they've asked. I think the best way to learn is by doing, so I try not to over-manage people.
+
+MARCUS: Tell me about your Figma experience.
+
+JAMES: Expert level. I've built complete design systems, I use auto-layout extensively, and I'm proficient with components and variables. That's definitely my strongest skill.
+
+MARCUS: Any questions for me?
+
+JAMES: What's the growth path here? I'm looking for a role where I can move toward a design leadership title fairly quickly.
