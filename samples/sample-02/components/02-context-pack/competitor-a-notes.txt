@@ -1,48 +1,8 @@
-ACME CORP — RELEASE NOTES & FEATURE OVERVIEW
-Source: acmecorp.io/changelog + acmecorp.io/features
-Last captured: 2024-10-30
+[TODO: Paste notes, copied web content, or a summary for Competitor A.
+Include their:
+- Product description (from their homepage)
+- Feature list (from their features/pricing page)
+- Pricing
+- Any recent announcements or blog posts
 
-=======================================================
-RECENT RELEASES
-=======================================================
-
-October 2024 — v5.2
-- Native offline mode for mobile apps (iOS and Android): work without internet, sync on reconnect
-- AI-powered task summaries: one-click summary of any project with action items highlighted
-- Gantt chart view: drag-and-drop timeline view now available on all paid plans
-
-September 2024 — v5.1
-- Custom automations builder: no-code automation with if/then rules, 15 built-in triggers
-- Guest access: invite external collaborators with view-only or comment-only permissions (up to 5 guests free)
-- Figma embed: embed live Figma frames directly in task descriptions
-
-August 2024 — v5.0 (Major release)
-- Redesigned dashboard with customisable widgets
-- Time tracking built-in (previously required third-party integration)
-- Workload view: see team capacity at a glance, flag overloaded members
-
-=======================================================
-PRICING (as of October 2024)
-=======================================================
-
-Free: up to 3 seats, unlimited projects, 1GB storage, no automations
-Starter: $12/seat/month, up to 10 seats, 5 automations/month, 10GB storage
-Pro: $18/seat/month, unlimited seats, unlimited automations, 100GB storage, priority support
-Business: $28/seat/month, SSO, audit logs, custom roles, dedicated success manager
-
-=======================================================
-POSITIONING / MARKETING CLAIMS
-=======================================================
-
-"The only project management tool built for creative teams"
-"AI-native from day one — not a bolt-on feature"
-"Offline-first: your work is always available, even at 30,000 feet"
-"Replace 5 tools with one — tasks, docs, time tracking, and reporting in a single workspace"
-
-=======================================================
-INTEGRATION ECOSYSTEM
-=======================================================
-
-Native integrations: Slack, Google Drive, Figma, GitHub, Notion, Salesforce, HubSpot
-Zapier: 200+ zaps available
-API: REST + GraphQL, rate limit 10,000 req/hour on Business
+Label this file with the competitor's actual name once you pick one.]

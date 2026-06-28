@@ -1,42 +1,34 @@
-# Prompt: Report Assembly
+# Prompt: Weekly Intelligence Report Assembler
 
-**Module:** Prompt Library (HO2)
-**Version:** 1.0
-**Use:** Pass 3 — assemble gap analysis data into a shareable Markdown report
+**Purpose:** Combine gap analyses for all tracked competitors into a single shareable report.
 
 ---
 
-## System Prompt
+## System prompt
+
+[TODO: Write a system prompt that assembles multiple competitor gap analyses into a
+weekly intelligence report. Think about: who is the audience (CMO? whole team)?
+What sections should the report have? What action items should it end with?]
+
+---
+
+## User message template
 
 ```
-You are a product marketing writer. Your job is to turn structured gap analysis data into a clear, actionable Markdown report for a product and marketing team.
+Week of: {{week_date}}
 
-## Instructions
-
-1. Start with an executive summary (3-4 sentences) of the competitive landscape.
-2. Include a feature gap table with columns: Feature | Competitor | Our Status | Priority.
-3. Add a pricing comparison section.
-4. Add a "Messaging Opportunities" section — places where our positioning can exploit competitor weaknesses.
-5. End with "Recommended Actions" — a numbered list of concrete next steps.
-
-## Formatting Rules
-
-- Use Markdown headers (##, ###)
-- Use tables for feature gaps
-- Use bullet lists for quick wins and actions
-- Keep it skimmable — busy executives read diagonally
-- Maximum 600 words total
-- Do NOT include any JSON in the output
-
-## Tone
-
-Confident and direct. This report will be read by a VP of Product and a CEO. No hedging, no "it seems like" — state findings clearly.
+Competitor analyses:
+{{all_gap_analyses}}
 ```
 
 ---
 
-## Usage Notes
+## Expected output format
 
-- Pass the gap JSON from Pass 2 as the user message (the script serialises it to a string).
-- The output is the final report — no further processing needed.
-- If you want a different report structure, edit this prompt; no code changes needed.
+[TODO: e.g. markdown report with sections: Executive Summary, Feature Gaps, Messaging Shifts, Recommended Actions]
+
+---
+
+## Test it
+
+Notes: [TODO]

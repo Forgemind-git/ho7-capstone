@@ -1,54 +1,14 @@
-PERSONAL BUDGET RULES & TARGETS
-Last updated: November 2024
-Currency: GBP (£)
+[TODO: Write your personal financial rules and context here.
+This file is loaded as grounding context in the Claude Project.
 
-=======================================================
-MONTHLY BUDGET TARGETS
-=======================================================
+Include:
+- Your income (approximate monthly take-home)
+- Your fixed expenses (rent, loan repayments, subscriptions you can't cancel)
+- Your savings goal (e.g. "save 20% of income each month")
+- Budget targets per category (e.g. Dining: max $300/month)
+- Any financial goals (emergency fund, vacation, down payment)
 
-Category            | Monthly Budget
---------------------|---------------
-groceries           | £250.00
-restaurants         | £100.00
-transport           | £80.00
-utilities           | £120.00
-subscriptions       | £50.00
-shopping            | £100.00
-health              | £40.00
-entertainment       | £60.00
-travel              | £200.00  (average — varies by month)
-education           | £30.00
-savings-investment  | £300.00  (target minimum)
-insurance           | Fixed (included in direct debits)
-income              | N/A
-other               | £50.00
+Claude will use this to give you personalised, actionable advice rather than generic tips.
 
-Total essential budget:    £490.00/month
-Total non-essential budget: £510.00/month (excl. savings)
-
-=======================================================
-FINANCIAL GOALS
-=======================================================
-
-1. Emergency fund: target £3,000 (currently £1,200)
-2. Holiday fund: saving £200/month for a trip in June 2025
-3. Reduce subscription spend: target £40/month by cancelling unused services
-4. Restaurant spending: maintain under £100/month
-
-=======================================================
-FINANCIAL RULES (for Q&A context)
-=======================================================
-
-- Any single transaction over £150 should be flagged for review
-- Subscriptions should be audited quarterly — remove anything unused for 2+ months
-- Grocery budget includes household supplies (cleaning products, etc.)
-- Transport budget covers public transport and Uber but NOT petrol (own car)
-- "Shopping" budget is for discretionary purchases only — birthday gifts excluded
-
-=======================================================
-NOTES
-=======================================================
-
-- Rent is £1,200/month (direct debit on 1st, not in the transaction CSV for this exercise)
-- Salary is £3,200/month net (deposited 25th of each month)
-- There is one joint account (household groceries) — transactions from that account not included here
+Note: this file is LOCAL ONLY. Never commit real financial data to a public repo.
+Add financial-rules.txt to your .gitignore.]

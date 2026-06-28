@@ -1,43 +1,8 @@
-FLOWSPACE — COMPANY VALUES
+[TODO: List your company values here and what behaviours demonstrate each one.
+These are used to assess culture alignment in the scorecard.
 
-These values are not aspirational posters — they are behaviours we hire for, promote for, and occasionally exit people for.
+Example:
+VALUE: Customer obsession
+Behaviours: Talks about customer impact unprompted; references feedback in decisions; ...
 
----
-
-VALUE 1: CUSTOMER OBSESSION
-We build for users, not for demos. Every design decision must trace back to a customer problem we've observed directly. We do user research before we write tickets, not after we've shipped.
-
-Behaviours this looks like:
-- Proactively seeks customer feedback; doesn't wait to be asked
-- Can cite specific customer quotes or data to justify design choices
-- Pushes back on features that don't solve a real observed problem
-
----
-
-VALUE 2: CRAFT WITHOUT EGO
-We take our work seriously but not ourselves. We ship great work, iterate quickly on feedback, and never defend our designs at the expense of the customer.
-
-Behaviours this looks like:
-- Receives critique openly and iterates without defensiveness
-- Treats engineer and PM input as signal, not noise
-- Prefers a good idea from anyone over their own mediocre idea
-
----
-
-VALUE 3: DEFAULT TO ASYNC
-We are a remote-first company. We write things down. We communicate with enough context that someone in a different timezone can act without a follow-up call.
-
-Behaviours this looks like:
-- Writes thorough design documentation and decision records
-- Does not rely on verbal-only communication for important decisions
-- Respects others' time by coming to meetings with clear pre-reads
-
----
-
-VALUE 4: GROW THE PIE
-We succeed as a team. Senior people are expected to make the people around them better — through mentorship, feedback, pair work, and shared knowledge.
-
-Behaviours this looks like:
-- Actively mentors more junior colleagues
-- Shares learnings publicly (Slack, Notion, team retros) not just in DMs
-- Celebrates team wins, not just personal wins
+Add 3-5 values.]

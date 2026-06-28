@@ -1,3 +1,11 @@
-How to reduce meeting overload with async-first teams
+[TODO: Write your topic brief here before running the pipeline.
 
-Context: This is for operations managers at growing SaaS companies who feel trapped in back-to-back meetings. The post should be practical and immediately actionable. Target length: 900-1100 words.
+Format:
+TOPIC: [one-line topic, e.g. "How small teams use AI to compete with larger companies"]
+ANGLE: [your specific take, e.g. "Focus on 3 real tools, not hype"]
+TARGET PERSONA: [which persona from audience-personas.txt]
+NOTES / SOURCES GATHERED:
+- [paste any URLs, quotes, or facts you've already found]
+- [...]
+DEADLINE: [publish date]
+]

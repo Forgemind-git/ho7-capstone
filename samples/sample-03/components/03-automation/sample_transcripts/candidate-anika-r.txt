@@ -1,36 +1,17 @@
-INTERVIEW TRANSCRIPT
+[TODO: Replace this placeholder with real or fictional interview notes for Candidate A.
+
+Format suggestion:
 Candidate: Anika R.
-Role: Senior Product Designer
-Interviewer: Marcus R.
-Date: 2024-10-31
-Duration: 60 minutes
+Role: [Your role title]
+Interview date: [date]
+Interviewer: [name]
 
----
+Notes:
+- [observation about communication]
+- [technical question and answer summary]
+- [behavioural question and answer summary]
+- [overall impression]
 
-MARCUS: Anika, walk me through your design process on a complex project.
-
-ANIKA: I'll use our mobile app redesign as an example. The product team had a hypothesis that our mobile engagement was low because the navigation was confusing. Before I touched Figma I wanted to validate that hypothesis. I ran a tree test with 40 participants to see where they expected to find core features. The data was surprising — navigation wasn't the problem; the home screen wasn't showing people the things they cared about. That completely changed the brief. We ended up rebuilding the home screen personalisation logic instead of redesigning navigation. Post-launch, daily active mobile users went up 28%.
-
-MARCUS: How do you handle situations where research findings contradict what leadership wants to build?
-
-ANIKA: I've been in that position twice. In both cases I shared the research clearly — actual quotes, actual data — and I framed it as "here's what the evidence shows, here's what I'd recommend, and here are the risks of the alternative." I always try to give leadership a way to proceed that addresses their goal while respecting the findings. In one case they went with the research-led approach; in the other they chose a middle path. Either way, the decision was informed.
-
-MARCUS: Tell me about your async working style.
-
-ANIKA: I'm very intentional about it. I write a design brief before starting any significant project — problem statement, constraints, success metrics, what's out of scope. I share it for async feedback before I do any design work. For handoffs I write design rationale docs: not just "what" but "why this and not that." My engineering partners have told me they appreciate it because they can build with confidence and ask fewer clarifying questions. I also do timezone-friendly async design critiques for distributed stakeholders.
-
-MARCUS: How do you grow the people around you?
-
-ANIKA: I run a monthly "design teardown" — I pick a product in the market, we all analyse it together as a team, and each person presents one insight. It's become a team ritual. I also share a "week in design" note every Friday — what I learned, a design link, a tool tip. On the mentoring side I have two direct mentees and I spend about 2 hours a week on 1:1s and asynchronous feedback on their work.
-
-MARCUS: Walk me through a moment where you changed your mind significantly during a design process.
-
-ANIKA: I was designing a complex filtering interface and I was convinced a sidebar approach was the right solution. I did a usability test with 5 users and 4 of them missed the filters entirely. I had to throw out a week of work. That was humbling — but it was also the moment I understood why research before high-fidelity work matters so much. I now almost never do high-fidelity before at least a quick concept test.
-
-MARCUS: What's your experience with design systems?
-
-ANIKA: I built one from scratch at my last company — started with a token library, then components, then pattern documentation. It's now used across 4 product teams. The hardest part was governance: making sure people contributed back instead of creating one-offs. I set up a quarterly component audit and a "design system office hours" session. Adoption went from about 40% in the first 6 months to 85% after we added the governance layer.
-
-MARCUS: Any questions for me?
-
-ANIKA: I'd love to understand how design success is measured here beyond shipping. How do you track design quality over time? And what's the biggest design challenge the team is facing right now?
+Strengths: [list]
+Concerns: [list]
+]

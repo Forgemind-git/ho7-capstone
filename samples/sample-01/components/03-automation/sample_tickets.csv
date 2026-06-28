@@ -1,9 +1,6 @@
 ticket_id,subject,body,submitted_at
-T-1001,Cannot log in after password reset,"I clicked 'Forgot password' and received the email but by the time I clicked the link it said it was expired. I tried again twice and the same thing happened.",2024-10-28 09:14:00
-T-1002,App crashes when switching between projects on iPhone,"I'm on iOS 17.4. Every time I quickly switch between two projects the app freezes and I have to force close it. This is happening multiple times a day.",2024-10-28 10:02:00
-T-1003,Invoice for October not received,"I usually get our invoice on the 1st but it's now the 5th and I haven't received anything. We need it for our accounts payable process.",2024-10-28 11:30:00
-T-1004,CSV export missing custom field data,"When I export our records to CSV the 'Priority' and 'Region' custom fields are blank even though they have values in the app.",2024-10-28 13:45:00
-T-1005,Entire team locked out — SSO not working,"Since this morning nobody in our company can log in. We get an error: 'Identity provider returned an unexpected response'. This is blocking our whole team.",2024-10-28 14:01:00
-T-1006,Slack notifications stopped working after renaming workspace,"We renamed our Slack workspace last week and now we no longer receive any Acme notifications in Slack.",2024-10-28 14:55:00
-T-1007,Dashboard takes over 10 seconds to load,"Our workspace has grown to about 12000 records and the main dashboard now takes 10-15 seconds to load every time. This is really slowing us down.",2024-10-28 15:30:00
-T-1008,Can you add a dark mode option?,"Would love a dark mode for the web app. My eyes get tired working in the evening. Not urgent just a suggestion!",2024-10-28 16:00:00
+T001,Cannot log in after password reset,"I reset my password but now I get 'Invalid credentials' every time I try to log in. This has been happening since yesterday.",2024-01-15 09:23:00
+T002,App crashes on iOS 17,"Every time I open the app on my iPhone (iOS 17.2) it crashes within 5 seconds. Works fine on my iPad.",2024-01-15 10:01:00
+T003,Wrong amount charged,"I was charged $49 instead of $29 for my monthly plan. Please refund the difference.",2024-01-15 10:45:00
+T004,How do I export my data?,"I want to export all my data to CSV. I can't find where to do this in the settings.",2024-01-15 11:02:00
+T005,Team members can't see shared project,"I shared a project with my team but they say they can't see it in their dashboard.",2024-01-15 11:30:00

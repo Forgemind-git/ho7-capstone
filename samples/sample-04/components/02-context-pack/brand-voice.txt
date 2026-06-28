@@ -1,65 +1,12 @@
-FLOWSPACE — BRAND VOICE GUIDELINES
+[TODO: Describe your brand's voice and writing style here.
 
-=======================================================
-VOICE PILLARS
-=======================================================
+Suggested sections:
+- Tone: (e.g. friendly and direct, never corporate)
+- Words we use: (e.g. "you" not "the user", "build" not "leverage")
+- Words we avoid: (list cliches or off-brand terms)
+- Example sentences that sound like us:
+  Good: "Here's what we found."
+  Bad: "Our research has unveiled..."
+- Format preferences: (bullet lists vs prose, active vs passive, etc.)
 
-1. DIRECT
-We say what we mean. We don't bury the lead or hedge our opinions. If we believe something, we state it clearly and explain why.
-
-Wrong: "It might be worth considering whether some meetings could potentially be reduced..."
-Right: "Most meetings are optional. Here's how to tell which ones."
-
-2. PRACTICAL
-We give people things they can use today, not someday. Every piece of content should have at least one takeaway the reader can act on before their next meeting.
-
-Wrong: "Building an async culture requires a fundamental shift in how teams communicate."
-Right: "Start here: for the next 5 days, replace one recurring meeting with a written update. See what happens."
-
-3. CONFIDENT BUT NOT ARROGANT
-We have opinions and we defend them with evidence. We're not aggressive, condescending, or dismissive of alternative approaches. We're confident enough to acknowledge when something is complex.
-
-Wrong: "If your team still has daily standups, you're doing remote work wrong."
-Right: "Daily standups work for some teams. Here's a framework for knowing if they're working for yours."
-
-4. HUMAN
-We write like a smart colleague, not a consultant. We use contractions. We write short sentences. We occasionally use a dash — like this — for emphasis. We're not trying to impress; we're trying to be useful.
-
-=======================================================
-STYLE RULES
-=======================================================
-
-DO:
-- Use "you" and "your team" — address the reader directly
-- Start paragraphs with the key point, not context-setting
-- Use specific numbers when available ("73% of remote workers" not "most remote workers")
-- Use active voice ("You can reduce meetings by..." not "Meetings can be reduced by...")
-- Use em-dashes for asides (not parentheses)
-- Use "and" to start sentences sometimes — it's fine
-
-DON'T:
-- Use corporate buzzwords: leverage, synergy, paradigm, disrupt, ecosystem, learnings (use "lessons")
-- Use "in conclusion" or "to summarize" — just conclude or summarise
-- Use passive voice more than once per section
-- Use more than one exclamation point per article (for any non-casual content)
-- Start with "I" in LinkedIn posts — it's a known engagement killer
-
-=======================================================
-TONE BY FORMAT
-=======================================================
-
-Blog posts: confident, educational, structured. Like a smart mentor sharing hard-won lessons.
-
-LinkedIn: personal, direct, slightly vulnerable. Share a real observation or experience. Invite discussion.
-
-Twitter/X: punchy, concrete, slightly provocative. Each tweet should be able to stand alone.
-
-Email newsletter: warm, personal, collegial. Write to a friend who happens to be an ops manager.
-
-=======================================================
-AUDIENCE AWARENESS
-=======================================================
-
-Primary reader: Alex (the Overloaded Ops Manager) — experienced enough to be skeptical of hype, busy enough to skim ruthlessly. Earn their attention in the first sentence.
-
-We never punch down (laugh at bad managers) or preach (tell people what they "should" do without empathy for why it's hard).
+This file is injected into every content prompt.]

@@ -1,47 +1,14 @@
-SENIOR PRODUCT DESIGNER — SCORING RUBRIC
+[TODO: Define your scoring rubric here.
+Suggested format:
 
-Use this rubric for all screening and panel interviews. Score each dimension 1-5.
+DIMENSION: Communication Skills
+Weight: 25%
+Score 1 (Poor): Unclear, struggles to explain ideas
+Score 2 (Below): Sometimes unclear, needs prompting
+Score 3 (Good): Clear explanations, answers questions fully
+Score 4 (Excellent): Concise, compelling, adapts style to audience
 
----
+DIMENSION: Technical Knowledge
+...
 
-DIMENSION 1: DESIGN CRAFT
-What we're evaluating: quality of portfolio, depth of process, visual and interaction design skill
-
-5 — Portfolio shows elegant, well-reasoned design decisions. Can articulate why every element exists. Demonstrates mastery of both visual craft and interaction patterns.
-4 — Strong portfolio with clear process. Some areas of exceptional work. Minor gaps in polish or rationale.
-3 — Competent work that meets requirements. Process is present but sometimes shallow. Visual craft is solid but not distinctive.
-2 — Portfolio shows potential but significant skill gaps in either visual craft or interaction design.
-1 — Portfolio is thin, underdeveloped, or cannot explain design rationale.
-
----
-
-DIMENSION 2: RESEARCH & DATA FLUENCY
-What we're evaluating: ability to conduct user research and use data to drive design decisions
-
-5 — Leads research independently. Can design a research plan, recruit, conduct interviews, synthesise findings, and act on them. Uses quantitative and qualitative data together.
-4 — Comfortable running research with some guidance. Can interpret analytics reports and A/B test results.
-3 — Participates in research but hasn't led it. Has some exposure to data interpretation.
-2 — Limited research experience. Designs based on intuition rather than evidence.
-1 — No meaningful research experience or explicitly resistant to data-driven approaches.
-
----
-
-DIMENSION 3: COLLABORATION & COMMUNICATION
-What we're evaluating: ability to work with engineers, PMs, and customers; communicate design decisions clearly
-
-5 — Exceptional communicator. Tailors message to audience. Written communication is crisp. Has proven examples of aligning stakeholders on hard design decisions.
-4 — Strong communicator with clear examples. Comfortable presenting to senior stakeholders.
-3 — Adequate communication. Can explain design choices but sometimes over-relies on visuals without verbal context.
-2 — Communication is unclear or leads to misalignment. Has struggled with stakeholder management.
-1 — Cannot articulate design rationale clearly. Feedback from interviewers suggests significant communication gaps.
-
----
-
-DIMENSION 4: GROWTH MINDSET & CULTURE FIT
-What we're evaluating: alignment with company values; coachability; async work habits; attitude to feedback
-
-5 — Strongly embodies all four values. Concrete examples for each. Has mentored others. Works well asynchronously.
-4 — Clear alignment with 3-4 values. One area where evidence is thinner.
-3 — Generally aligned but one value has a gap or an early concern.
-2 — Misalignment on 1-2 values. May struggle in the culture.
-1 — Clear misalignment on a core value (e.g., strongly ego-driven, no async capability, dismisses customer research).
+Add 4-6 dimensions relevant to your role.]
