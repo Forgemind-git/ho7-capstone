@@ -1,4 +1,10 @@
 """
+OPTIONAL — ADVANCED AUTOMATION (not required for the course)
+This script uses the Anthropic API, which needs an ANTHROPIC_API_KEY and is billed
+per use — that is SEPARATE from your Claude.ai subscription. The hands-on is built
+entirely in Claude.ai with NO API key. See the sample README's
+"Use it with your Claude.ai subscription" section for the no-code version.
+
 Interview Question Generator
 HO7 Capstone — Sample 03 (Step 1 of 3)
 
