@@ -1,1 +1,36 @@
-[TODO: Replace this placeholder with real or fictional interview notes for Candidate C.]
+INTERVIEW TRANSCRIPT
+Candidate: Sarah M.
+Role: Senior Product Designer
+Interviewer: Marcus R.
+Date: 2024-10-29
+Duration: 55 minutes
+
+---
+
+MARCUS: Thanks for making time, Sarah. Let's start — can you walk me through a recent project where you had full design ownership from research to ship?
+
+SARAH: Sure. Last year I led the redesign of our onboarding flow. It started when our data team flagged that 40% of users were dropping off on day 3. I set up 8 user interviews over two weeks — recruited through our support tickets, actually, people who had churned. What I found was that the "aha moment" — when users first got value — was buried under 4 screens of form-filling. So I proposed a new flow that moved the core action to screen 2. I prototyped it in Figma, ran a usability study with 6 current users, iterated, and we shipped it. Day-3 retention went from 60% to 74% in the first month.
+
+MARCUS: How did you handle it when engineering pushed back on the complexity of your proposed solution?
+
+SARAH: That came up on this exact project. The animated transition I designed would have required a new animation library. The lead engineer said it would add two weeks. I asked him to show me what was feasible in the current setup. We pair-worked for an hour — him in code, me in Figma — and we found a simpler transition that was actually cleaner. I'd say 80% of the time when engineers push back there's a better design hiding in the constraint.
+
+MARCUS: Tell me about a time you received design feedback that you disagreed with.
+
+SARAH: My CEO once asked me to make our pricing page "more aggressive" — bigger fonts, more urgency language. I disagreed because our research showed that our users were analytical buyers who found pressure tactics off-putting. I didn't just say no — I shared the research, proposed an alternative that addressed her underlying goal (higher conversion), and we A/B tested both. The data-led version won. She was grateful we tested it.
+
+MARCUS: How do you document your design decisions for the team?
+
+SARAH: I keep a design decision record in Notion for every project. It captures the problem, the options considered, why I chose the direction I did, and what we'd watch for post-launch. I also write a Loom walkthrough for complex interactions — engineers can watch it asynchronously instead of scheduling a meeting. I've had engineers at other companies tell me it's the clearest handoff process they've worked with.
+
+MARCUS: Have you mentored junior designers?
+
+SARAH: Yes, for the past 18 months I've been formally mentoring two mid-level designers. We have weekly 30-minute 1:1s. I also run a biweekly design critique open to the whole product team — it's become a space where junior designers get safe feedback before work goes to stakeholders. One of my mentees just shipped her first solo feature last month and it was genuinely good.
+
+MARCUS: What's your experience with mobile design?
+
+SARAH: About 30% of my portfolio is native mobile — both iOS and Android. I understand the platform conventions and I'm comfortable designing for different viewport sizes. I've worked closely with mobile engineers on gesture interactions and I know enough about React Native's constraints to avoid designing things that are painful to build.
+
+MARCUS: Any questions for me?
+
+SARAH: Yes — how does the design team currently engage with research? Is it embedded in product squads or centralised?

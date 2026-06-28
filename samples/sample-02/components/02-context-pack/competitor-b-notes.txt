@@ -1,2 +1,64 @@
-[TODO: Same as competitor-a-notes.txt but for Competitor B.
-You can track as many competitors as you like — add competitor-c-notes.txt etc.]
+BETA TOOLS — FEATURE OVERVIEW & PRICING
+Source: betatools.io/features + betatools.io/pricing
+Last captured: 2024-10-30
+
+=======================================================
+KEY FEATURES
+=======================================================
+
+CORE WORKFLOW
+- Kanban, list, calendar, and timeline views (all plans)
+- Subtasks with unlimited nesting depth
+- Custom fields: text, number, date, dropdown, people, formula
+- Recurring tasks with flexible scheduling (daily/weekly/monthly/custom)
+
+AI FEATURES
+- AI writing assistant: rewrite, summarise, translate task descriptions
+- Smart scheduling: AI suggests optimal due dates based on team workload
+- Meeting notes AI: paste meeting transcript, AI extracts action items automatically
+
+COLLABORATION
+- Threaded comments on every item
+- Live presence indicators (see who's viewing the same task in real time)
+- Video messages: record up to 2-minute loom-style videos directly in tasks
+- @mention anyone in your workspace or guest users
+
+REPORTING & ANALYTICS
+- Velocity reports: track throughput per person per sprint
+- Burndown charts: automatic for any project with dates set
+- Custom report builder: drag-and-drop report designer, export to PDF or CSV
+
+SECURITY & ADMIN
+- SOC 2 Type II certified
+- IP allowlisting (Business plan)
+- SCIM provisioning for enterprise identity providers
+- Custom data retention policies (Enterprise only)
+
+=======================================================
+PRICING (as of October 2024)
+=======================================================
+
+Starter: $8/seat/month — all views, 5 users max, 5GB storage, no AI features
+Growth: $15/seat/month — unlimited users, AI writing assistant, 50GB storage, basic reports
+Business: $25/seat/month — all AI features, advanced reporting, SSO, IP allowlisting, SOC 2
+Enterprise: Custom — SCIM, custom retention, dedicated SLA, custom contract
+
+Free trial: 14 days, no credit card required
+
+=======================================================
+POSITIONING / MARKETING CLAIMS
+=======================================================
+
+"Work management for the AI era"
+"SOC 2 certified — enterprise-grade security for teams of any size"
+"Video messages built in — no more Loom subscription needed"
+"Smart scheduling that learns your team's rhythm"
+"14-day free trial, no credit card, cancel anytime"
+
+=======================================================
+RECENT BLOG ANNOUNCEMENTS
+=======================================================
+
+"Announcing Smart Scheduling: AI that books your tasks so you don't have to" (October 2024)
+"Beta Tools is now SOC 2 Type II certified" (September 2024)
+"Introducing Video Messages — async video, right in your workflow" (August 2024)

@@ -1,10 +1,86 @@
-[TODO: Paste or write a summary of your product's documentation here.
-This file will be injected into the Claude Project as grounding context.
+ACME SAAS — PRODUCT DOCUMENTATION (Support Reference)
+Version 3.4 | Last updated 2024-11-01
 
-Include:
-- What the product does
-- Key features and how they work
-- Common error messages and their meaning
-- Step-by-step guides for the top 5 user tasks
+=======================================================
+SECTION 1: AUTHENTICATION
+=======================================================
 
-Keep it under ~3,000 words for best results in Claude Projects.]
+1.1 Password Reset
+Users can reset their password by navigating to the login page and clicking "Forgot password". An email is sent to the registered address with a reset link valid for 60 minutes. If the link expires, users must request a new one.
+
+Common issue: Users who sign up via Google SSO do not have a password and cannot use the password reset flow. They must always use "Continue with Google".
+
+1.2 Single Sign-On (SSO)
+Acme supports SAML 2.0 SSO for Business and Enterprise plans. SSO is configured under Settings > Security > SSO. Once SSO is enabled, all workspace members are required to authenticate through the identity provider.
+
+Admin note: Disabling SSO requires an admin account that still has a local password set. If all admins are SSO-only, contact support@acmesaas.com for emergency access.
+
+1.3 Two-Factor Authentication (2FA)
+2FA is optional for Pro plans and mandatory for Enterprise. Supported methods: authenticator app (TOTP) and SMS. Backup codes are generated at setup and can be regenerated under Settings > Security > 2FA.
+
+If a user loses their authenticator and backup codes, an admin can disable 2FA for that user under Settings > Team > [username] > Security.
+
+=======================================================
+SECTION 2: BILLING
+=======================================================
+
+2.1 Subscription Plans
+- Starter: up to 5 seats, $29/month
+- Pro: up to 25 seats, $99/month
+- Business: up to 100 seats, $299/month
+- Enterprise: unlimited seats, custom pricing
+
+Plan changes take effect immediately. Upgrades are prorated; downgrades apply at the next billing cycle.
+
+2.2 Payment Failures
+If a payment fails, Acme retries 3 times over 7 days. The account remains active during retries. If all retries fail, the account is downgraded to a read-only state (data preserved, no edits allowed) until payment is updated.
+
+Update payment details: Settings > Billing > Payment Method.
+
+2.3 Invoices and Receipts
+Invoices are emailed to the billing contact on the 1st of each month. Past invoices are downloadable from Settings > Billing > Invoice History. VAT/GST details can be added under Settings > Billing > Tax Information.
+
+=======================================================
+SECTION 3: MOBILE APP
+=======================================================
+
+3.1 Supported Platforms
+- iOS 15 and above (iPhone and iPad)
+- Android 10 and above
+
+3.2 Offline Mode
+The mobile app supports offline viewing of the last 7 days of data. Changes made offline sync when the device reconnects. Offline mode is not available on the web app.
+
+3.3 Push Notifications
+Enable push notifications in your device's system settings, then in Acme under Profile > Notifications > Mobile. Notification delivery may be delayed up to 5 minutes.
+
+3.4 Known Sync Issue (v4.1.x)
+A known issue in mobile app versions 4.1.0–4.1.3 causes sync to stall when the app is backgrounded for more than 10 minutes. Workaround: force-close and reopen the app. Fix included in v4.2.0 (released 2024-10-15).
+
+=======================================================
+SECTION 4: DATA EXPORT
+=======================================================
+
+4.1 CSV Export
+Available from any list view via the "Export" button (top-right). Exports include all visible columns plus hidden columns if "Include all fields" is checked. Maximum 50,000 rows per export; use the API for larger datasets.
+
+4.2 PDF Reports
+PDF export is available on Pro plans and above. Navigate to a Report view and click "Download PDF". Generation may take up to 30 seconds for large reports.
+
+4.3 API Access
+REST API documentation: https://docs.acmesaas.com/api
+Rate limit: 1,000 requests/hour (Pro), 10,000 requests/hour (Business/Enterprise).
+Authentication: Bearer token, generated at Settings > Developer > API Keys.
+
+=======================================================
+SECTION 5: INTEGRATIONS
+=======================================================
+
+5.1 Slack
+Install the Acme Slack app from the Slack App Directory. Connect under Settings > Integrations > Slack. Notifications, task updates, and mentions can be routed to Slack channels.
+
+5.2 Zapier
+Acme is available as a Zapier app. Triggers: new record, updated record, new comment. Actions: create record, update record. API key required (Settings > Developer > API Keys).
+
+5.3 Salesforce
+Native Salesforce integration available on Business and Enterprise plans. Bi-directional sync of Contacts and Opportunities. Setup guide: https://docs.acmesaas.com/integrations/salesforce

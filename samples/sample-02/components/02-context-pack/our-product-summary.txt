@@ -1,8 +1,73 @@
-[TODO: Write a 1-2 page summary of your product.
-Include:
-- What it does and who it is for
-- Key features (bullet list)
-- Current pricing tiers
-- How you describe yourself vs competitors in your own marketing
+OUR PRODUCT — CURRENT FEATURE SUMMARY
+Product: FlowSpace (example product name for this sample)
+Last updated: 2024-10-30
 
-This file is injected as context when running the gap-analysis prompt.]
+=======================================================
+CURRENT FEATURES
+=======================================================
+
+VIEWS
+- Kanban board (all plans)
+- List view (all plans)
+- Calendar view (Pro and above)
+- NO Gantt/timeline view (most-requested missing feature)
+
+TASK MANAGEMENT
+- Tasks and subtasks (one level deep only — not unlimited nesting)
+- Custom fields: text, number, date, dropdown
+- Recurring tasks: daily and weekly only
+- Attachments: files up to 25MB
+
+AI FEATURES
+- None currently — AI roadmap planned for Q2 2025
+
+COLLABORATION
+- Threaded comments
+- File attachments
+- @mentions
+- NO video messages
+- NO live presence indicators
+
+TIME TRACKING
+- Not built-in — integrates with Toggl and Harvest via Zapier only
+
+REPORTING
+- Basic summary reports (task completion rate per project)
+- CSV export
+- NO burndown charts, velocity reports, or custom report builder
+
+MOBILE
+- iOS and Android apps (React Native)
+- NO offline mode
+
+SECURITY
+- SSL/TLS encryption
+- 2FA (TOTP)
+- SSO via SAML (Business plan)
+- NOT SOC 2 certified (certification in progress, expected Q1 2025)
+- NO IP allowlisting
+- NO SCIM
+
+=======================================================
+CURRENT PRICING
+=======================================================
+
+Starter: $10/seat/month — up to 5 users, Kanban + List views, 5GB storage
+Pro: $20/seat/month — unlimited users, Calendar view, Zapier integration, 50GB storage
+Business: $35/seat/month — SSO, custom roles, 500GB storage, priority support
+
+=======================================================
+OUR POSITIONING
+=======================================================
+
+"The simplest way for service teams to stay aligned"
+"No training required — your team is productive on day one"
+"Fair, transparent pricing — no per-feature add-ons"
+
+=======================================================
+KNOWN ROADMAP ITEMS (public)
+=======================================================
+
+Q1 2025: SOC 2 Type II certification
+Q2 2025: AI features (writing assistant + smart suggestions)
+Q3 2025: Advanced reporting suite
