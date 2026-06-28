@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample 04 — Content Production Engine · HO7 Capstone</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background:#F8F9FA; color:#1a1a2e; }
+:root { --color: #0F766E; }
+header { background:var(--color); color:#fff; padding:40px 32px 32px; }
+header .back { font-size:13px; opacity:.75; margin-bottom:12px; display:inline-block; color:#fff; text-decoration:none; }
+header .back:hover { opacity:1; }
+header .badge { font-size:12px; font-weight:700; letter-spacing:.08em; opacity:.8; text-transform:uppercase; margin-bottom:8px; background:rgba(255,255,255,.18); display:inline-block; padding:2px 10px; border-radius:20px; }
+header h1 { font-size:26px; font-weight:800; margin-bottom:8px; }
+header p { font-size:15px; opacity:.85; max-width:640px; line-height:1.6; }
+.sub-bar { background:#fff; border-left:4px solid var(--color); padding:14px 20px; margin:24px 32px; border-radius:4px; font-size:14px; color:#374151; line-height:1.6; box-shadow:0 1px 4px rgba(0,0,0,.07); }
+.sub-bar strong { color:var(--color); }
+.content { max-width:860px; margin:0 auto; padding:0 32px 60px; }
+.section { background:#fff; border-radius:10px; box-shadow:0 1px 6px rgba(0,0,0,.08); margin-bottom:24px; overflow:hidden; }
+.section-header { background:var(--color); color:#fff; padding:14px 22px; }
+.section-header h2 { font-size:15px; font-weight:700; }
+.section-header .step-num { font-size:11px; opacity:.75; font-weight:600; letter-spacing:.06em; text-transform:uppercase; margin-bottom:2px; }
+.section-body { padding:22px; }
+.section-body p { font-size:14px; line-height:1.75; color:#374151; margin-bottom:12px; }
+.section-body p:last-child { margin-bottom:0; }
+.section-body h3 { font-size:13px; font-weight:700; color:var(--color); text-transform:uppercase; letter-spacing:.05em; margin:18px 0 8px; }
+.section-body h3:first-child { margin-top:0; }
+pre { background:#F1F5F9; border:1px solid #E2E8F0; border-radius:6px; padding:14px 16px; font-size:12.5px; line-height:1.7; overflow-x:auto; margin:10px 0; font-family: 'SF Mono', Consolas, monospace; white-space:pre; }
+.prompt-block { background:#ECFDF5; border:1px solid #A7F3D0; border-radius:6px; padding:14px 16px; margin:10px 0; font-size:13px; line-height:1.7; color:#064E3B; font-family: 'SF Mono', Consolas, monospace; white-space:pre-wrap; }
+.step-list { list-style:none; counter-reset:steps; }
+.step-list li { counter-increment:steps; display:flex; gap:14px; margin-bottom:14px; font-size:14px; line-height:1.65; color:#374151; }
+.step-list li::before { content:counter(steps); min-width:26px; height:26px; background:var(--color); color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; flex-shrink:0; margin-top:1px; }
+.checklist { list-style:none; }
+.checklist li { display:flex; align-items:flex-start; gap:10px; margin-bottom:10px; font-size:14px; line-height:1.6; color:#374151; }
+.checklist li input[type=checkbox] { margin-top:3px; accent-color:var(--color); width:16px; height:16px; flex-shrink:0; cursor:pointer; }
+.tag { display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:20px; margin-right:4px; margin-bottom:4px; }
+.tag-green { background:#D1FAE5; color:#065F46; }
+.tag-blue { background:#DBEAFE; color:#1E40AF; }
+.tag-purple { background:#EDE9FE; color:#5B21B6; }
+.concepts { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
+footer { text-align:center; padding:24px; color:#9CA3AF; font-size:13px; border-top:1px solid #E5E7EB; margin-top:8px; }
+@media(max-width:580px){ .content{ padding:0 14px 40px; } header{ padding:24px 16px; } .sub-bar{ margin:14px 14px; } }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="../../" class="back">← Back to HO7 Overview</a>
+  <div class="badge">Sample 04 · Capstone</div>
+  <h1>Content Production Engine</h1>
+  <p>Content team cannot scale research and production — solved with a brand-grounded Claude Project, a multi-format prompt library, and a Cowork pipeline that takes one topic brief to five content pieces.</p>
+</header>
+
+<div class="sub-bar">
+  <strong>No API key needed.</strong> This capstone runs entirely inside your Claude.ai subscription — brand voice and audience personas loaded as Project Knowledge, drafting prompts saved to your library, full content bundle assembled via Cowork. No Python required.
+</div>
+
+<div class="content">
+
+  <!-- Problem & Solution -->
+  <div class="section">
+    <div class="section-header"><h2>The Problem &amp; Solution Overview</h2></div>
+    <div class="section-body">
+      <p><strong>The problem:</strong> A single content piece takes 3–4 hours from brief to publish: research, drafting, editing for brand voice, and then repurposing the same idea into LinkedIn posts, Twitter threads, and email newsletters. The team spends more time on reformatting than on original thinking.</p>
+      <p><strong>The solution:</strong> A Claude-powered content production pipeline. Brand voice, audience personas, and trend signals live permanently in a Claude Project. Three prompts handle research brief → blog draft → multi-format repurposing. One Cowork session produces five content pieces in under 30 minutes.</p>
+      <div class="concepts">
+        <span class="tag tag-blue">Trend Research / Grounding (HO4)</span>
+        <span class="tag tag-green">Prompt Library (HO2)</span>
+        <span class="tag tag-purple">Pipeline Automation (HO5-6)</span>
+      </div>
+      <p>Output: a research brief, a full blog post, a LinkedIn article, a Twitter/X thread, and an email newsletter — all on-brand, grounded in audience data, produced from a single topic sentence.</p>
+    </div>
+  </div>
+
+  <!-- Architecture -->
+  <div class="section">
+    <div class="section-header"><h2>Architecture</h2></div>
+    <div class="section-body">
+      <pre>
+ Topic Brief (one sentence or paragraph)
+         │
+         ▼
+ ┌──────────────────────────────────────────────┐
+ │  Claude Project: "Content Engine"            │
+ │  Project Knowledge:                          │
+ │    • brand-voice.txt                         │
+ │    • audience-personas.txt                   │
+ │    • trend-signals.txt                       │
+ └────────────────┬─────────────────────────────┘
+                  │  always-active brand grounding
+                  ▼
+ ┌──────────────────────────────────────────────┐
+ │  STEP 1 — Research Brief Prompt              │
+ │  Synthesises trends + audience pain points   │
+ │  into a structured content brief             │
+ └────────────────┬─────────────────────────────┘
+                  │
+                  ▼
+ ┌──────────────────────────────────────────────┐
+ │  STEP 2 — Blog Draft Prompt                  │
+ │  Full 1,000–1,500 word blog post,            │
+ │  on-brand, grounded in the research brief    │
+ └────────────────┬─────────────────────────────┘
+                  │
+                  ▼
+ ┌──────────────────────────────────────────────┐
+ │  STEP 3 — Repurpose Prompt                   │
+ │  Applied once per format:                    │
+ │    • LinkedIn post                           │
+ │    • Twitter/X thread                        │
+ │    • Email newsletter                        │
+ └────────────────┬─────────────────────────────┘
+                  ▼
+        Content Bundle Artifacts
+        (5 pieces, all on-brand, ready to publish)
+</pre>
+      <p>Every output automatically matches your brand voice because the brand voice document is always in the project context. Interviewers never need to paste "write in our brand voice" — it's always there.</p>
+    </div>
+  </div>
+
+  <!-- Component 1 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="step-num">Component 1</div>
+      <h2>Research Grounding — Load Brand &amp; Audience Context</h2>
+    </div>
+    <div class="section-body">
+      <p>Load your brand and audience materials into a Claude Project once. Every content piece produced in the project is automatically grounded in your voice and audience — no copy-pasting guidelines into each conversation.</p>
+      <h3>Steps</h3>
+      <ol class="step-list">
+        <li>Go to <strong>claude.ai → Projects → New Project</strong>. Name it <em>"Content Engine"</em>.</li>
+        <li>Add Project Knowledge document 1: paste <code>components/02-context-pack/brand-voice.txt</code>. Title it "Brand Voice Guide".</li>
+        <li>Add document 2: paste <code>components/02-context-pack/audience-personas.txt</code>. Title it "Audience Personas".</li>
+        <li>Add document 3: paste <code>components/02-context-pack/trend-signals.txt</code>. Title it "Trend Signals — [Month Year]".</li>
+        <li>Set the Project System Prompt: <em>"You are a content strategist and writer. Always write in the brand voice defined in the Brand Voice Guide. Always consider the audience personas before structuring content. Use the Trend Signals document as research context — cite relevant trends when appropriate."</em></li>
+        <li>Update the Trend Signals document monthly to keep research current.</li>
+      </ol>
+      <h3>Verification</h3>
+      <p>Ask Claude: <em>"Describe our brand voice in three adjectives."</em> — the answer should come directly from your brand-voice document. If it describes a generic voice instead, check the document was saved correctly in Project Knowledge.</p>
+    </div>
+  </div>
+
+  <!-- Component 2 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="step-num">Component 2</div>
+      <h2>Prompt Library — Three Production Prompts</h2>
+    </div>
+    <div class="section-body">
+      <p>Save each prompt to your Claude prompt library. The three prompts form a sequential pipeline — run them in order in each content session.</p>
+
+      <h3>Prompt 1: Research Brief</h3>
+      <p>Save as: <strong>"Content — Research Brief"</strong></p>
+      <div class="prompt-block">Using the Trend Signals and Audience Personas in this project, create a structured research brief for the following topic:
+
+Topic: [PASTE TOPIC BRIEF HERE]
+
+Output a Research Brief with these sections:
+
+## Core Insight
+[One sentence: the most important thing the audience needs to understand]
+
+## Audience Pain Point
+[Which persona is this for? What pain point does this topic address? Cite the personas document.]
+
+## Trend Angle
+[Which trend signal makes this topic timely right now? Direct quote or reference from Trend Signals document.]
+
+## Key Points to Cover
+[Bullet list: 4–6 must-include points for a complete treatment of this topic]
+
+## Content Angle
+[One sentence: the unique angle that makes our take different from generic content on this topic]
+
+## Suggested Headline Options
+[3 headline options — vary format: question / statement / how-to]</div>
+
+      <h3>Prompt 2: Blog Draft</h3>
+      <p>Save as: <strong>"Content — Blog Draft"</strong></p>
+      <div class="prompt-block">Using the Research Brief above and the Brand Voice Guide in this project, write a full blog post.
+
+Requirements:
+- Length: 1,000–1,500 words
+- Structure: introduction, 3–4 main sections with subheadings, conclusion with CTA
+- Voice: match exactly the Brand Voice Guide in this project
+- Audience: write for the primary persona identified in the Research Brief
+- Include the trend angle naturally within the body — do not force it
+
+Use one of the headline options from the Research Brief (or improve on them).
+
+Format as a Claude Artifact so I can copy it directly.</div>
+
+      <h3>Prompt 3: Repurpose</h3>
+      <p>Save as: <strong>"Content — Repurpose"</strong></p>
+      <div class="prompt-block">Repurpose the blog post above into [FORMAT] format.
+
+Formats and their requirements:
+
+If FORMAT = LinkedIn post:
+- 150–300 words
+- Opening hook in the first line (no "I" start)
+- 3–5 short paragraphs or bullet points
+- Conversational, first-person brand voice
+- End with a question to prompt comments
+
+If FORMAT = Twitter/X thread:
+- 6–10 tweets
+- Tweet 1: bold hook (no hashtags)
+- Tweets 2–8: one key point per tweet, self-contained
+- Final tweet: summary + follow CTA
+- Each tweet under 280 characters
+
+If FORMAT = Email newsletter:
+- Subject line + preview text
+- 250–400 words body
+- One clear CTA at the end
+- Friendly, slightly more personal than blog voice
+
+Apply this prompt three times (one per format) and create each as a separate Artifact.
+Current format requested: [PASTE FORMAT HERE]</div>
+    </div>
+  </div>
+
+  <!-- Component 3 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="step-num">Component 3</div>
+      <h2>Automation — Cowork Content Pipeline Session</h2>
+    </div>
+    <div class="section-body">
+      <p>Run one Cowork session per topic to produce the full content bundle. A complete session takes 20–30 minutes and produces five on-brand content pieces.</p>
+      <h3>Session workflow</h3>
+      <ol class="step-list">
+        <li>Open the <em>Content Engine</em> Claude Project. Start a new conversation titled with the topic (e.g. "Content — Async Teams — 28 June 2025").</li>
+        <li>Apply the <strong>"Content — Research Brief"</strong> prompt. Paste your topic sentence or brief. Review the output — adjust the angle or pain point if needed before proceeding.</li>
+        <li>Apply the <strong>"Content — Blog Draft"</strong> prompt. Read the draft, make any edits inline (ask Claude to revise specific sections if needed).</li>
+        <li>Apply the <strong>"Content — Repurpose"</strong> prompt three times — once per format. Change the format line each time: "LinkedIn post", "Twitter/X thread", "Email newsletter".</li>
+        <li>You now have four Artifacts in the conversation (blog + three formats). Export them to your content calendar tool (Notion, Airtable, Buffer draft).</li>
+      </ol>
+      <h3>Topic brief format</h3>
+      <p>You can use the sample topic brief from the repo (<code>components/03-automation/topic_brief.txt</code>) as a template. A good brief is 1–3 sentences: the topic, the target audience, and the specific angle or question to address.</p>
+    </div>
+  </div>
+
+  <!-- Putting it together -->
+  <div class="section">
+    <div class="section-header"><h2>Putting It Together — End-to-End Content Workflow</h2></div>
+    <div class="section-body">
+      <p>Complete weekly content workflow for a content team using Claude.ai:</p>
+      <ol class="step-list">
+        <li><strong>Monday — topic selection:</strong> Choose 1–3 topics for the week. Write a one-sentence brief for each.</li>
+        <li><strong>For each topic — research:</strong> Open Content Engine project → apply Research Brief prompt → review brief, refine angle if needed.</li>
+        <li><strong>For each topic — draft:</strong> Apply Blog Draft prompt → review and edit the draft → approve.</li>
+        <li><strong>For each topic — repurpose:</strong> Apply Repurpose prompt three times (LinkedIn / Twitter / Email) → you have a full content bundle.</li>
+        <li><strong>Publish:</strong> Copy Artifacts to your publishing tools. One session in Claude = a full week of social + email content.</li>
+        <li><strong>Monthly update:</strong> Refresh the Trend Signals document in Project Knowledge with new data. The next session automatically incorporates updated trends.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Evidence Checklist -->
+  <div class="section">
+    <div class="section-header"><h2>Evidence Checklist</h2></div>
+    <div class="section-body">
+      <p>Check each item as you complete it. Screenshot or copy Claude output as evidence for your course submission.</p>
+      <ul class="checklist">
+        <li><input type="checkbox"> Created a Claude Project named "Content Engine"</li>
+        <li><input type="checkbox"> Loaded brand voice guide as Project Knowledge</li>
+        <li><input type="checkbox"> Loaded audience personas as Project Knowledge</li>
+        <li><input type="checkbox"> Loaded trend signals as Project Knowledge</li>
+        <li><input type="checkbox"> Verified project grounding (asked Claude to describe brand voice — matched document)</li>
+        <li><input type="checkbox"> Saved "Content — Research Brief" prompt to library</li>
+        <li><input type="checkbox"> Saved "Content — Blog Draft" prompt to library</li>
+        <li><input type="checkbox"> Saved "Content — Repurpose" prompt to library</li>
+        <li><input type="checkbox"> Produced a research brief for one topic</li>
+        <li><input type="checkbox"> Produced a full blog draft from the brief (1,000+ words)</li>
+        <li><input type="checkbox"> Repurposed the post into LinkedIn format</li>
+        <li><input type="checkbox"> Repurposed the post into Twitter/X thread format</li>
+        <li><input type="checkbox"> Repurposed the post into email newsletter format</li>
+        <li><input type="checkbox"> All outputs saved as Claude Artifacts</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<footer>Forgemind AI · Claude Course · HO7 · <a href="https://github.com/Forgemind-git/ho7-capstone" style="color:#9CA3AF;">github.com/Forgemind-git/ho7-capstone</a></footer>
+
+</body>
+</html>

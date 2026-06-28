@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sample 02 — Competitor Intelligence Tracker · HO7 Capstone</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background:#F8F9FA; color:#1a1a2e; }
+:root { --color: #0F766E; }
+header { background:var(--color); color:#fff; padding:40px 32px 32px; }
+header .back { font-size:13px; opacity:.75; margin-bottom:12px; display:inline-block; color:#fff; text-decoration:none; }
+header .back:hover { opacity:1; }
+header .badge { font-size:12px; font-weight:700; letter-spacing:.08em; opacity:.8; text-transform:uppercase; margin-bottom:8px; background:rgba(255,255,255,.18); display:inline-block; padding:2px 10px; border-radius:20px; }
+header h1 { font-size:26px; font-weight:800; margin-bottom:8px; }
+header p { font-size:15px; opacity:.85; max-width:640px; line-height:1.6; }
+.sub-bar { background:#fff; border-left:4px solid var(--color); padding:14px 20px; margin:24px 32px; border-radius:4px; font-size:14px; color:#374151; line-height:1.6; box-shadow:0 1px 4px rgba(0,0,0,.07); }
+.sub-bar strong { color:var(--color); }
+.content { max-width:860px; margin:0 auto; padding:0 32px 60px; }
+.section { background:#fff; border-radius:10px; box-shadow:0 1px 6px rgba(0,0,0,.08); margin-bottom:24px; overflow:hidden; }
+.section-header { background:var(--color); color:#fff; padding:14px 22px; }
+.section-header h2 { font-size:15px; font-weight:700; }
+.section-header .step-num { font-size:11px; opacity:.75; font-weight:600; letter-spacing:.06em; text-transform:uppercase; margin-bottom:2px; }
+.section-body { padding:22px; }
+.section-body p { font-size:14px; line-height:1.75; color:#374151; margin-bottom:12px; }
+.section-body p:last-child { margin-bottom:0; }
+.section-body h3 { font-size:13px; font-weight:700; color:var(--color); text-transform:uppercase; letter-spacing:.05em; margin:18px 0 8px; }
+.section-body h3:first-child { margin-top:0; }
+pre { background:#F1F5F9; border:1px solid #E2E8F0; border-radius:6px; padding:14px 16px; font-size:12.5px; line-height:1.7; overflow-x:auto; margin:10px 0; font-family: 'SF Mono', Consolas, monospace; white-space:pre; }
+.prompt-block { background:#ECFDF5; border:1px solid #A7F3D0; border-radius:6px; padding:14px 16px; margin:10px 0; font-size:13px; line-height:1.7; color:#064E3B; font-family: 'SF Mono', Consolas, monospace; white-space:pre-wrap; }
+.step-list { list-style:none; counter-reset:steps; }
+.step-list li { counter-increment:steps; display:flex; gap:14px; margin-bottom:14px; font-size:14px; line-height:1.65; color:#374151; }
+.step-list li::before { content:counter(steps); min-width:26px; height:26px; background:var(--color); color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; flex-shrink:0; margin-top:1px; }
+.checklist { list-style:none; }
+.checklist li { display:flex; align-items:flex-start; gap:10px; margin-bottom:10px; font-size:14px; line-height:1.6; color:#374151; }
+.checklist li input[type=checkbox] { margin-top:3px; accent-color:var(--color); width:16px; height:16px; flex-shrink:0; cursor:pointer; }
+.tag { display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:20px; margin-right:4px; margin-bottom:4px; }
+.tag-green { background:#D1FAE5; color:#065F46; }
+.tag-blue { background:#DBEAFE; color:#1E40AF; }
+.tag-purple { background:#EDE9FE; color:#5B21B6; }
+.concepts { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
+footer { text-align:center; padding:24px; color:#9CA3AF; font-size:13px; border-top:1px solid #E5E7EB; margin-top:8px; }
+@media(max-width:580px){ .content{ padding:0 14px 40px; } header{ padding:24px 16px; } .sub-bar{ margin:14px 14px; } }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="../../" class="back">← Back to HO7 Overview</a>
+  <div class="badge">Sample 02 · Capstone</div>
+  <h1>Competitor Intelligence Tracker</h1>
+  <p>Marketing team cannot keep up with competitor releases — solved with a Claude Project research grounding, analysis prompt library, and Cowork-driven report generation.</p>
+</header>
+
+<div class="sub-bar">
+  <strong>No API key needed.</strong> This capstone runs entirely inside your Claude.ai subscription — competitor materials uploaded as Project Knowledge, analysis prompts saved to your library, Cowork handles the report assembly. No Python required.
+</div>
+
+<div class="content">
+
+  <!-- Problem & Solution -->
+  <div class="section">
+    <div class="section-header"><h2>The Problem &amp; Solution Overview</h2></div>
+    <div class="section-body">
+      <p><strong>The problem:</strong> Your product and marketing teams need to know what competitors are shipping — pricing changes, new features, messaging pivots — but tracking multiple competitors manually takes hours each week, and the output is usually stale by the time it reaches the team.</p>
+      <p><strong>The solution:</strong> A structured intelligence pipeline in Claude.ai. Competitor release notes, feature pages, and pricing info are loaded into a Claude Project as grounding context. Three analysis prompts extract gaps, compare pricing, and identify messaging opportunities. A Cowork session assembles the final shareable report.</p>
+      <div class="concepts">
+        <span class="tag tag-green">Prompt Library (HO2)</span>
+        <span class="tag tag-blue">Grounded Research (HO4)</span>
+        <span class="tag tag-purple">Skill-Driven Automation (HO5-6)</span>
+      </div>
+      <p>Result: a complete gap analysis report — feature table, pricing comparison, messaging opportunities, and recommended actions — produced in a single Claude session, grounded in real competitor data.</p>
+    </div>
+  </div>
+
+  <!-- Architecture -->
+  <div class="section">
+    <div class="section-header"><h2>Architecture</h2></div>
+    <div class="section-body">
+      <pre>
+ Competitor Materials (pasted or uploaded to Project Knowledge)
+           │
+           ▼
+ ┌────────────────────────────────────────────────┐
+ │  Claude Project: "Competitor Intelligence"      │
+ │  Project Knowledge:                             │
+ │    • competitor-a-notes.txt                     │
+ │    • competitor-b-notes.txt                     │
+ │    • our-product-summary.txt                    │
+ └─────────────────┬──────────────────────────────┘
+                   │  always-active grounding
+                   ▼
+ ┌────────────────────────────────────────────────┐
+ │  PASS 1 — Research Extraction Prompt           │
+ │  Extracts: new features, pricing, messaging    │
+ │  from each competitor document                 │
+ └─────────────────┬──────────────────────────────┘
+                   │
+                   ▼
+ ┌────────────────────────────────────────────────┐
+ │  PASS 2 — Gap Analysis Prompt                  │
+ │  Compares competitor features vs our product   │
+ │  Outputs structured gap table                  │
+ └─────────────────┬──────────────────────────────┘
+                   │
+                   ▼
+ ┌────────────────────────────────────────────────┐
+ │  PASS 3 — Report Assembly Prompt               │
+ │  Formats full report with sections +           │
+ │  recommended actions                           │
+ └─────────────────┬──────────────────────────────┘
+                   ▼
+        gap_report.md Artifact
+        (ready to paste into Notion/Confluence/Slack)
+</pre>
+      <p>Three sequential prompts, one Claude Project session. The project knowledge means you never re-paste competitor docs — Claude always has them available.</p>
+    </div>
+  </div>
+
+  <!-- Component 1 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="step-num">Component 1</div>
+      <h2>Research Grounding — Load Competitor Materials into Claude Project</h2>
+    </div>
+    <div class="section-body">
+      <p>Rather than pasting competitor data into every chat, load it once into a Claude Project. The project makes all materials available as permanent grounding context across every conversation.</p>
+      <h3>Steps</h3>
+      <ol class="step-list">
+        <li>Go to <strong>claude.ai → Projects → New Project</strong>. Name it <em>"Competitor Intelligence"</em>.</li>
+        <li>Click <strong>Add content</strong>. Paste the contents of <code>components/02-context-pack/competitor-a-notes.txt</code>. Title it "Competitor A — Release Notes".</li>
+        <li>Add a second document: paste <code>components/02-context-pack/competitor-b-notes.txt</code>. Title it "Competitor B — Release Notes".</li>
+        <li>Add a third document: paste <code>components/02-context-pack/our-product-summary.txt</code>. Title it "Our Product — Current Features".</li>
+        <li>Set a Project System Prompt: <em>"You are a competitive intelligence analyst. Always cite the specific competitor document and section when making claims. Never invent features or pricing not present in the provided materials."</em></li>
+        <li>Save the project.</li>
+      </ol>
+      <h3>Keeping intelligence fresh</h3>
+      <p>Update competitor documents monthly (or when you spot a release). Edit the Project Knowledge document in-place — all future conversations automatically use the updated version. Date-stamp each document title (e.g. "Competitor A — Release Notes — June 2025") to track freshness.</p>
+    </div>
+  </div>
+
+  <!-- Component 2 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="step-num">Component 2</div>
+      <h2>Prompt Library — Three Analysis Prompts</h2>
+    </div>
+    <div class="section-body">
+      <p>Save each prompt below to your Claude prompt library. Run them in sequence inside the Competitor Intelligence project during each analysis session.</p>
+
+      <h3>Prompt 1: Research Extraction</h3>
+      <p>Save as: <strong>"Intel — Extract Research"</strong></p>
+      <div class="prompt-block">Using the competitor documents in this project, extract the following for each competitor:
+
+1. New or updated features (released in the last 90 days)
+2. Current pricing tiers and key price points
+3. Primary marketing messages / positioning language
+
+Format your output as three sections, one per competitor. Cite the document and section for each claim. If a piece of information is not available in the documents, say "not found in source."
+
+Do not invent or infer anything not explicitly stated in the materials.</div>
+
+      <h3>Prompt 2: Gap Analysis</h3>
+      <p>Save as: <strong>"Intel — Gap Analysis"</strong></p>
+      <div class="prompt-block">Based on the research extraction above and the "Our Product — Current Features" document in this project, produce a structured gap analysis.
+
+Output format:
+
+## Feature Gap Table
+| Feature | Competitor A | Competitor B | Us | Priority Gap? |
+|---------|-------------|-------------|-----|--------------|
+[fill in rows]
+
+## Pricing Comparison
+[one paragraph comparing pricing positioning]
+
+## Messaging Opportunities
+[bullet list: 3–5 messaging angles where we have an advantage or where competitors are weak]
+
+## Recommended Actions
+[numbered list: top 3 actions for product/marketing based on this analysis]
+
+Base every claim on the documents. Mark anything uncertain with (unconfirmed).</div>
+
+      <h3>Prompt 3: Report Assembly</h3>
+      <p>Save as: <strong>"Intel — Assemble Report"</strong></p>
+      <div class="prompt-block">Compile everything from this conversation into a final competitor intelligence report.
+
+Format as a clean Markdown document suitable for Notion or Confluence:
+
+# Competitor Intelligence Report
+**Date:** [today's date]
+**Competitors analysed:** [list]
+**Sources:** [document titles from project knowledge]
+
+## Executive Summary (3 bullet points)
+
+## Feature Gap Analysis
+[table from previous step]
+
+## Pricing &amp; Packaging
+[pricing comparison]
+
+## Messaging Opportunities
+[list from previous step]
+
+## Recommended Actions
+[numbered list]
+
+## Source Notes
+[brief note on each document's date and coverage]
+
+Create this as an Artifact so I can copy it directly.</div>
+    </div>
+  </div>
+
+  <!-- Component 3 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="step-num">Component 3</div>
+      <h2>Automation — Cowork Weekly Intelligence Session</h2>
+    </div>
+    <div class="section-body">
+      <p>Run a structured Cowork session inside the Competitor Intelligence project each week. The three prompts from your library handle the analysis in sequence.</p>
+      <h3>Weekly workflow (15–20 minutes)</h3>
+      <ol class="step-list">
+        <li>Open the <em>Competitor Intelligence</em> Claude Project. Start a new conversation titled with today's date (e.g. "Intel Session — 28 June 2025").</li>
+        <li>If there are new competitor releases this week, update the relevant Project Knowledge document before starting. (Edit → paste new content → save.)</li>
+        <li>Apply the <strong>"Intel — Extract Research"</strong> prompt. Review the output — correct any misattributions before proceeding.</li>
+        <li>Apply the <strong>"Intel — Gap Analysis"</strong> prompt. Expand any rows in the feature table that need more detail by asking follow-up questions in the same conversation.</li>
+        <li>Apply the <strong>"Intel — Assemble Report"</strong> prompt. Claude will produce a formatted Artifact.</li>
+        <li>Copy the Artifact and paste it into your team's Notion/Confluence page or share as a Slack message. The report is ready.</li>
+      </ol>
+      <h3>Optional: add a NotebookLM layer</h3>
+      <p>For deeper research (e.g. analysing full product pages, PDFs, or YouTube demos), upload competitor materials to <a href="https://notebooklm.google.com" target="_blank" rel="noopener">NotebookLM</a> first and use its summary as your extraction input — then paste that summary into your Claude Project for gap analysis.</p>
+    </div>
+  </div>
+
+  <!-- Putting it together -->
+  <div class="section">
+    <div class="section-header"><h2>Putting It Together — End-to-End Workflow</h2></div>
+    <div class="section-body">
+      <p>Complete workflow for a competitive intelligence analyst using Claude.ai:</p>
+      <ol class="step-list">
+        <li><strong>Monthly setup:</strong> Update competitor documents in Project Knowledge with fresh release notes, pricing pages, and blog posts (paste as text).</li>
+        <li><strong>Weekly session:</strong> Open the project → apply Extract Research prompt → verify output.</li>
+        <li><strong>Analysis:</strong> Apply Gap Analysis prompt → review the feature table → ask Claude to elaborate on any row.</li>
+        <li><strong>Report:</strong> Apply Report Assembly prompt → Claude creates a formatted Artifact.</li>
+        <li><strong>Share:</strong> Copy Artifact to Notion/Confluence or paste into Slack. Total time per session: 15–20 minutes.</li>
+        <li><strong>Iteration:</strong> Over multiple sessions, your project knowledge builds a running history of competitor evolution — ask Claude to compare this week's gaps to last week's at any time.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Evidence Checklist -->
+  <div class="section">
+    <div class="section-header"><h2>Evidence Checklist</h2></div>
+    <div class="section-body">
+      <p>Check each item as you complete it. Screenshot or copy Claude output as evidence for your submission.</p>
+      <ul class="checklist">
+        <li><input type="checkbox"> Created a Claude Project named "Competitor Intelligence"</li>
+        <li><input type="checkbox"> Added at least two competitor documents as Project Knowledge</li>
+        <li><input type="checkbox"> Added your own product summary as a third knowledge document</li>
+        <li><input type="checkbox"> Set a system prompt instructing Claude to cite sources</li>
+        <li><input type="checkbox"> Saved "Intel — Extract Research" prompt to your library</li>
+        <li><input type="checkbox"> Saved "Intel — Gap Analysis" prompt to your library</li>
+        <li><input type="checkbox"> Saved "Intel — Assemble Report" prompt to your library</li>
+        <li><input type="checkbox"> Ran the three-prompt sequence in one project session</li>
+        <li><input type="checkbox"> Verified all claims in the gap analysis are cited from source documents</li>
+        <li><input type="checkbox"> Generated the final report as a Claude Artifact</li>
+        <li><input type="checkbox"> Exported / shared the report with at least one team member</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<footer>Forgemind AI · Claude Course · HO7 · <a href="https://github.com/Forgemind-git/ho7-capstone" style="color:#9CA3AF;">github.com/Forgemind-git/ho7-capstone</a></footer>
+
+</body>
+</html>
